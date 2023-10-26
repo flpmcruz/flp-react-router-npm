@@ -13,7 +13,7 @@ function AboutPage({ routeParams }) {
     <>
       <h1>{i18n.title}</h1>
       <p>{i18n.description}</p>
-      <img src="/avatar.jpg" />
+      <img src="/avatar.jpg" style={{ borderRadius: '50%', width: '100px'}} />
       <Link to={"/"}>{i18n.button}</Link>
     </>
   );

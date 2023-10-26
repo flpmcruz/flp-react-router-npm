@@ -1,3 +1,10 @@
+# To run local
+
+```
+npm install
+npm run dev
+```
+
 # This is a router like react-router-dom
 
 - Basic usage
