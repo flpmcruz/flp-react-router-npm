@@ -1,13 +1,9 @@
 import { Link } from "../Link";
 import { useI18n } from "../hooks/useI18n";
-import { useQueryParams } from "../hooks/useQueryParams";
 import { i18nAbout } from "../languages/i18nAbout";
 
 function AboutPage({ routeParams }) {
   const { i18n } = useI18n(routeParams.lang ?? "es", i18nAbout);
-
-  const query = useQueryParams();
-  console.log(query);
 
   return (
     <>

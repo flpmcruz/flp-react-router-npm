@@ -1,5 +1,3 @@
-function SearchPage({ routeParams }) {
-  return <h1>Search {routeParams.query}</h1>;
+export default function SearchPage({ routeParams }) {
+  return <h1>Search {routeParams.id}</h1>;
 }
-
-export default SearchPage;
